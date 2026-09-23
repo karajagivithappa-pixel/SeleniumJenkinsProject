@@ -12,4 +12,9 @@ public class OrgTest {
 	public void modifyOrgTest() {
 		System.out.println("executed modifyOrgTest");
 	}
+	
+	@Test
+	public void newOrgTest() {
+		System.out.println("executed newOrgTest");
+	}
 }
