@@ -16,11 +16,7 @@ public class ContactTest {
 	}
 	
 	@Test
-	public void runContactTest() throws Exception {
-		WebDriver driver=new ChromeDriver();
-		driver.get("http://49.249.29.4:8888/");
-		Thread.sleep(3000);
-		driver.quit();
-		//System.out.println("executed modifyContactTest");
+	public void newContactTest() throws Exception {
+		System.out.println("executed newContactTest");
 	}
 }

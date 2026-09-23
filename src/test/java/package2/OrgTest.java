@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 public class OrgTest {
 	@Test
 	public void createOrgTest() {
+		System.out.println(System.getProperty("browser"));
 		System.out.println("executed createOrgTest");
 	}
 	
